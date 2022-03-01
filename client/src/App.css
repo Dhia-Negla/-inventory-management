@@ -1,0 +1,104 @@
+body{
+    margin :0px;
+}
+.grid-container{
+  display: grid;
+  grid-template-rows: 80px auto;
+  height: 100vh;
+  border: 3px;
+  box-sizing: border-box;
+  background-color: #d8dbe2;
+}
+.header{
+  color: #58a4b0;
+  font-size: 2rem;
+  margin: 10px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+}
+.btn{
+  background-color: #58a4b0; 
+  border: none;
+  color: white;
+  border-radius: 8px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  right: 30px;
+}
+.display{
+  background-color: #A9BCD0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 16px;
+}
+.headericon{
+  margin-right: 20px;
+  margin-left: 10px;
+  font-size: 2.2rem;
+}
+.headProducts{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 4px;
+  color: #373f51;
+  font-size: 1.6rem;
+}
+.id{ 
+  margin: 20px;
+}
+.desc{
+  margin-left: 200px;
+  margin-right: 400px;
+}
+.price{ 
+  margin: 60px;
+}
+.qty{
+  margin: 60px;
+}
+.amount{
+  margin: 60px;
+}
+.delete{
+  margin-left: 440px;
+}
+.rid{ 
+  position: absolute;
+  left: 30px;
+
+}
+.rdesc{
+  position: absolute;
+  left: 300px;
+}
+.rprice{ 
+  position: absolute;
+  left: 890px;
+}
+.rqty{
+  position: absolute;
+  right: 830px;
+}
+.ramount{
+  position: absolute;
+  right: 620px;
+}
+.rdelete{
+  position: absolute;
+  right: 40px;
+}
+.product{
+  margin: 4px 4px 4px 4px;
+  padding: 2px;
+  height: 24px;
+  border-radius: 6px;
+  background-color: #d8dbe2;
+  color: #1b1b1e;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,76 @@
+.background{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0, 0.2);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.pop{
+    width: 400px;
+    height: 350px;
+    box-shadow: 0 5px 16px rgba(0,0,0,0.2);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+}
+.addproduct{
+    background-color: #58a4b0;
+    color: white;
+    padding: 4px ;
+    font-size: 1.4rem;
+}
+.closeicon{
+    position: absolute;
+    right: 2px;
+    font-size: 1.6rem;
+}
+.field{
+    margin: 20px;
+    font-size: 1.4rem;
+}
+.input{
+    position: absolute;
+    right: 50px;
+    padding: 5px 0px;
+}
+.confirm{
+    margin: 38px 4px 4px 4px;
+    background-color: #e4e6eb;
+    height: 80px;
+    border-radius: 4px;
+}
+.btn1{
+    background-color: white;
+    border: none;
+    color: #373f51;
+    border-radius: 4px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+  }
+  .btn2{
+    background-color: #58a4b0;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+  }
